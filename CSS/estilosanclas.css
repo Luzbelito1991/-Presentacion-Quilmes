@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+
+}
+
+body {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    background-image: url("../img/background/BG-0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cf-color {
+    background: rgb(67, 112, 48);
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+
+.caja-contenedora {
+    /*background-image: url("../img/background/BG-0.jpg");*/
+    /*width: 100%;*/
+    /*margin: 10px auto;*/
+    border: 15px solid rgb(248, 3, 3);
+
+}
+
+/* HEADER */
+
+/*.header {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    /* border: 4px solid darkorange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 3px;
+    background: #FFFFFF;
+    }*/
+
+
+
+.contenedor-logo {
+
+    width: 30%;
+    height: 400x;
+    padding: 3px;
+    margin: 10px 5px;
+    /*border: 4px solid rgb(233, 59, 210);*/
+
+}
+
+.contenedor-img {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px dashed red;*/
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.nav-list li {
+    margin-right: 15px;
+    border-radius: 3px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    cursor: default;
+}
+
+
+.nav-list li:hover {
+
+    background: hsla(110, 85%, 16%, 0.685);
+    transition: 2s;
+
+
+
+}
+
+/* HEADER */
+
+
+h1,
+h2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: black;
+}
+
+
+/* SOBRE NOSOTROS*/
+
+.cajaempre {
+
+    width: 100%;
+    height: auto;
+    /*margin: 15px 15px*/
+    ;
+    /*border: 5PX dashed blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.hijoempre {
+
+    width: 100%;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.txtempre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: white;
+
+}
+
+.lista li {
+    color: red;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.titulonota {
+    color: white;
+    margin-left: 25px;
+}
+
+
+
+
+
+/* *************GALERIA************* */
+
+.galeria {
+    border: 6px dashed blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*.clientes {
+        display: flex;
+        flex-direction: column;
+}*/
+
+.galeria {
+    width: 100%;
+}
+
+.fila {
+    width: 100%;
+    display: flex;
+    margin: 0 20px;
+}
+
+.caja-galeria {
+    width: 25%;
+    padding: 0 10px;
+    animation-name: ani-galeria;
+
+}
+
+.caja-galeria img {
+    width: 100%;
+    /*display: inline-block;*/
+    border-radius: 10px;
+}
+
+/*.caja-galeria img:hover {
+padding: 9px;
+background: rgb(13, 129, 19);
+border-radius: 20px;
+box-shadow: #999 5px 5px 10px;
+transition: 1s;*/
+
+@keyframes ani-galeria {
+    0% {
+        transform: rotate(0);
+    }
+
+    00% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* *************GALERIA************* */
+
+
+
+
+.contempresa {
+    /*width: 100%;
+    height: auto;
+    border: 5PX dashed blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;*/
+
+}
+
+
+
+
+p {
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+.qhacemos .video {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+
+
+
+
+/* SECCIONES */
+
+/*.sucur h3{
+
+    color: blue;
+    margin: 10px;
+
+}
+
+.ubicacion iframe{
+    width: 80%;
+    margin: 10px 20px;
+}
+*/
+
+.sucur {}
+
+
+.cajatuc {
+    border: 3px dashed magenta;
+    width: 100%;
+    padding: 3px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.mapa {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.sucur .cajatuc .ubicacion img {
+    width: 40%;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+/* FORMULARIO*/
+.titform {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#formprin {
+    border-radius: 8px;
+
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#formprin span {
+    margin: 5px 0 15px 0;
+    color: black;
+
+}
+
+
+#formprin input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    border: none;
+
+}
+
+#formprin input[type="radio"] {
+    width: auto;
+    margin-right: 15px;
+
+
+
+}
+
+#formprin select {
+
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    background:
+
+}
+
+#formprin textarea {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: monospace;
+    background:
+}
+
+#formprin p {
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+}
+
+#formprin button[type="submit"] {
+
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #4C9972;
+    transition: 1s;
+
+
+}
+
+#formprin button[type="submit"]:hover {
+    background: rgb(82, 160, 79);
+    cursor: pointer;
+}
+
+
+/* FIN DEL FORMULARIO*/
+
+.pie {
+
+
+    background: #4C9972;
+    padding: 2%;
+    text-align: right;
+    color: black;
+    clear: both;
+    margin: 15px 0 10px 0;
+}
+
+.botonup {
+    /*border: 5px dashed red;*/
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-end;*/
+
+
+}
+
+.up {
+    /*border:10px dashed yellow;*/
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.up img {
+    width: 40px;
+}
+
+
+
+.botonup img:hover {
+    background: #4C9972;
+    border-radius: 80%;
+    cursor: pointer;
+
+}
+
+.clientes {
+    border: 9px dashed white;
+}
+
+.comercios2 {
+    border: 9px dashed orangered;
+}
