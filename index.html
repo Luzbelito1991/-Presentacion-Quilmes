@@ -56,16 +56,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">La Empresa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sucursales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Comercios Adheridos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                            <a class="nav-link active" aria-current="page" href="#p1">La Empresa</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -79,9 +70,20 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#p2">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#p3">Comercios Adheridos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#p4">Contacto</a>
+                        </li>
+
+                        
                     </ul>
 
                 </div>
@@ -199,7 +201,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 id="p2">Servicios</h2>
+                        <h2 id="p5">Servicios</h2>
                     </div>
                 </div>
             </div>
@@ -275,6 +277,9 @@
 
 
 
+
+
+
     </section>
 
 
@@ -284,119 +289,97 @@
 
     <!--INCICIO DE seccion4-->
 
-    <div class="container">
-        <section class="sucursales">
 
-            <h2 id="p4">Sucursales</h2>
+    <section class=" container sucursales">
 
+        <h2 id="p2">Sucursales</h2>
 
-            <div class="cajatuc">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Vení a visitarnos, ¡te esperamos!
+                        Actualmente, contamos con 10 sucursales distribuidas estratégicamente en el noroeste argentino:
+                    </p>
 
-                <p>Vení a visitarnos, ¡te esperamos!
-                    Actualmente, contamos con 10 sucursales distribuidas estratégicamente en el noroeste argentino:</p>
+                </div>
+            </div>
+        </div>
 
-                <article class="ubicacion">
+        <div class="container">
+            <div class="row">
 
-                    <div class="mapa">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.5311870740034!2d-65.21115068545136!3d-26.824480095989735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c15da0ee0fd%3A0x17bba64e64184315!2sSan%20Juan%20866%2C%20T4000DPR%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e1!3m2!1ses!2sar!4v1619401947587!5m2!1ses!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                        </iframe>
-                    </div>
+                <div class="col-lg-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.5311870740034!2d-65.21115068545136!3d-26.824480095989735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c15da0ee0fd%3A0x17bba64e64184315!2sSan%20Juan%20866%2C%20T4000DPR%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e1!3m2!1ses!2sar!4v1619401947587!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
 
+                </div>
+                <div class="col-lg-6">
                     <figure>
                         <img src="img/qq.JPG" style="border-radius: 5px;" alt="quilmessa">
                     </figure>
-
-                </article>
-
+                </div>
             </div>
+        </div>
 
-        </section>
-    </div>
+    </section>
+
 
 
 
     <!--FIN DE seccion4-->
 
     <!--INICIO DE seccion5 FORMULARIO-->
-    <div class="container">
-        <section class="contacto">
+
+    <section class="container-fluid contacto">
+        <div class="container">
             <!--seccion5 FORMULARIO-->
-            <h2 id="p5">Contacto</h2>
+            <h2 id="p4">Contacto</h2>
             <article>
 
                 <form action="mailto:mail@mail.com" method="post" id="formprin" target="new">
 
-                    <div>
-                        <label>
-                            <span>Nombre</span>
-                            <input type="text" name="nombre">
-                        </label>
+                    
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="nombrecompleto" placeholder="Nombre Completo">
+                        <label for="floatingPassword">Nombre Completo</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono de contacto">
+                        <label for="floatingPassword">Teléfono de contacto</label>
+                    </div>
+                    <div class="form-floating mb-1">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                        <label for="floatingInput">Email</label>
                     </div>
 
-                    <div>
-                        <label>
-                            <span>Email</span>
-                            <input type="email" name="email" id="campoemail" placeholder="example: mail@mail.com"
-                                required>
-                        </label>
-                    </div>
-
-                    <div>
-
-                        <span>Tipo de consulta: </span>
-
-                        <select name="Seleccione" id="">
-
-                            <option value="tecnico">Soporte Tecnico</option>
-                            <option value="ventas">Ventas</option>
-                            <option value="administracion">Administracion</option>
-                            <option value="otras">Otras Consultas</option>
-                            <option selected>Seleccione una opción</option>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Seleccione el área...</option>
+                            <option value="1">Soporte Tecnico</option>
+                            <option value="2">Ventas</option>
+                            <option value="3">Administracion</option>
                         </select>
                     </div>
-
-                    <div>
-                        <span>Es usted cliente ?</span>
-                        <p>
-                            <label>
-                                <input type="radio" name="consultante" value="si">SI
-                            </label>
-                            <br>
-                            <label>
-                                <input type="radio" name="consultante" value="no">NO
-                            </label>
-                            <br>
-                            <label>
-                            </label>
-                        </p>
-
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje aquí</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="submit" class="btn btn-outline-success">Enviar Mensaje</button>
                     </div>
-
-                    <div>
-
-                        <span>Escriba su consulta</span>
-                        <br>
-                        <label for="txtMensaje">
-                            <textarea name="comentario" id="" cols="30" rows="10"
-                                placeholder="El servicio brindado fué..."></textarea>
-                        </label>
-                    </div>
-
-                    <div>
-
-                        <button type="submit">Consultar</button>
-
-                    </div>
-
+                    
                 </form>
 
 
-            </article>
 
-        </section>
+
+    </section>
     </div>
+
+
+
+
+
 
 
     <!--FIN DE seccion5 FORMULARIO-->

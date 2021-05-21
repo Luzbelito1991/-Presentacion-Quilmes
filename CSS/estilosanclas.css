@@ -160,6 +160,16 @@ p {
 
 
 
+/******* SERVICIOS*******/
+
+.servicios{
+    margin:60px 0;
+    border:5px dashed red;
+    background: orchid;
+}
+
+
+
 
 
 /* *************GALERIA************* */
@@ -362,25 +372,28 @@ p {
     background:
 }
 
-#formprin p {
+#formprin{
     font-family: monospace;
     padding: 10px;
-    margin: 5px 0 10px 0;
-    border-radius: 3px;
-    width: 100%;
+    margin-bottom: 30px;
+    width: 80%;
     border: none;
 }
 
-#formprin button[type="submit"] {
+/*#formprin button[type="submit"] {
 
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 3px;
-    background: #4C9972;
+    background: #f80404;
     transition: 1s;
 
 
+}*/
+
+.form-floating{
+    background:red;
 }
 
 #formprin button[type="submit"]:hover {
@@ -441,4 +454,17 @@ p {
 
 .comercios2 {
     border: 9px dashed orangered;
+}
+
+.contacto{
+    background:#313233;
+    
+}
+
+.btn-outline-success{
+ color: white;
+}
+
+.form-label{
+    color: white;
 }
