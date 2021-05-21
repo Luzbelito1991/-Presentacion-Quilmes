@@ -21,7 +21,7 @@ body {
 }
 
 .cf-color {
-    background: rgb(67, 112, 48);
+    background: #FFFFFF;
     margin-top: 10px;
     border-radius: 3px;
 }
@@ -95,9 +95,6 @@ body {
 
     background: hsla(110, 85%, 16%, 0.685);
     transition: 2s;
-
-
-
 }
 
 /* HEADER */
@@ -107,7 +104,7 @@ h1,
 h2 {
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 p {
@@ -116,6 +113,7 @@ p {
 
 
 /* SOBRE NOSOTROS*/
+
 
 .cajaempre {
 
@@ -163,9 +161,9 @@ p {
 /******* SERVICIOS*******/
 
 .servicios{
-    margin:60px 0;
-    border:5px dashed red;
-    background: rgb(4, 226, 255);
+    /*margin:60px 0;*/
+    */border:5px dashed red;*/
+    background: rgb(242, 246, 247);
 }
 
 
@@ -449,7 +447,7 @@ p {
 }
 
 .clientes {
-    border: 9px dashed white;
+    /*border: 9px dashed white;*/
 }
 
 .comercios2 {
