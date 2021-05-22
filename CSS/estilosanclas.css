@@ -132,7 +132,7 @@ p {
 .hijoempre {
 
     width: 100%;
-    border: 3px solid black;
+   /* border: 3px solid black;*/
     overflow: hidden;
 }
 
@@ -155,80 +155,6 @@ p {
     color: white;
     margin-left: 25px;
 }
-
-
-
-/******* SERVICIOS*******/
-
-.servicios{
-    /*margin:60px 0;*/
-    */border:5px dashed red;*/
-    background: rgb(242, 246, 247);
-}
-
-
-
-
-
-/* *************GALERIA************* */
-
-.galeria {
-    border: 6px dashed blue;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-/*.clientes {
-        display: flex;
-        flex-direction: column;
-}*/
-
-.galeria {
-    width: 100%;
-}
-
-.fila {
-    width: 100%;
-    display: flex;
-    margin: 0 20px;
-}
-
-.caja-galeria {
-    width: 25%;
-    padding: 0 10px;
-    animation-name: ani-galeria;
-
-}
-
-.caja-galeria img {
-    width: 100%;
-    /*display: inline-block;*/
-    border-radius: 10px;
-}
-
-/*.caja-galeria img:hover {
-padding: 9px;
-background: rgb(13, 129, 19);
-border-radius: 20px;
-box-shadow: #999 5px 5px 10px;
-transition: 1s;*/
-
-@keyframes ani-galeria {
-    0% {
-        transform: rotate(0);
-    }
-
-    00% {
-        transform: rotate(360deg);
-    }
-}
-
-
-/* *************GALERIA************* */
-
-
 
 
 .contempresa {
@@ -261,23 +187,6 @@ p {
 }
 
 
-
-
-/* SECCIONES */
-
-/*.sucur h3{
-
-    color: blue;
-    margin: 10px;
-
-}
-
-.ubicacion iframe{
-    width: 80%;
-    margin: 10px 20px;
-}
-*/
-
 .sucur {}
 
 
@@ -288,9 +197,6 @@ p {
     height: auto;
     display: flex;
     justify-content: space-around;
-
-
-
 }
 
 .mapa {
@@ -378,17 +284,6 @@ p {
     border: none;
 }
 
-/*#formprin button[type="submit"] {
-
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-    background: #f80404;
-    transition: 1s;
-
-
-}*/
 
 .form-floating{
     background:red;
