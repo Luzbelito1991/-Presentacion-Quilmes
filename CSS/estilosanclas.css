@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -11,13 +10,13 @@ html {
 }
 
 body {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 0 auto;
     background-image: url("../img/background/BG-0.jpg");
-    background-repeat:repeat-x
-    background-size: cover;*/
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.header{
+    z-index: 99999999999;
 }
 
 .cf-color {
@@ -70,7 +69,7 @@ body {
     /* border: 3px dashed red;*/
 }
 
-.nav-list {
+/*.nav-list {
     list-style: none;
     display: flex;
     margin-bottom: 20px;
@@ -95,9 +94,8 @@ body {
 
     background: hsla(110, 85%, 16%, 0.685);
     transition: 2s;
-}
+}*/
 
-/* HEADER */
 
 
 h1,h2 {
