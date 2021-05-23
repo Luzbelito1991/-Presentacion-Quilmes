@@ -16,8 +16,8 @@ body {
     padding: 10px;
     margin: 0 auto;
     background-image: url("../img/background/BG-0.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:repeat-x
+    background-size: cover;*/
 }
 
 .cf-color {
@@ -100,11 +100,11 @@ body {
 /* HEADER */
 
 
-h1,
-h2 {
+h1,h2 {
     color: black;
     text-align: center;
     padding: 5px;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 p {
