@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -9,14 +10,27 @@ html {
 
 }
 
+img{
+    border-radius: 6px;
+}
+
+
+/*div[class|="col"]{
+    border: 2px solid rgb(251, 255, 9);
+}*/
+
+
 body {
     background-image: url("../img/background/BG-0.jpg");
     background-repeat:no-repeat;
     background-size: cover;
 }
 
+
+
 .header{
     z-index: 99999999999;
+    
 }
 
 .cf-color {
@@ -73,25 +87,18 @@ body {
     list-style: none;
     display: flex;
     margin-bottom: 20px;
-
 }
-
 .nav-list li {
     margin-right: 15px;
     border-radius: 3px;
-
 }
-
 .nav-list li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     display: block;
     cursor: default;
 }
-
-
 .nav-list li:hover {
-
     background: hsla(110, 85%, 16%, 0.685);
     transition: 2s;
 }*/
@@ -106,7 +113,10 @@ h1,h2 {
 }
 
 p {
-    color: black;
+    color: rgb(255, 254, 254);
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
 }
 
 
@@ -168,34 +178,21 @@ p {
 }
 
 
+/*SERVICIOS*/
 
+.hola:hover{
+animation: pulse;
+animation-duration: 2s;
+cursor: pointer;
+}
 
-p {
-    padding: 5px;
-    margin: 20px;
-    font-weight: bold;
+.chau:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
 
 }
 
-.qhacemos .video {
-    border-radius: 3px;
-    margin-bottom: 20px;
-    width: 50%;
-
-}
-
-
-.sucur {}
-
-
-.cajatuc {
-    border: 3px dashed rgb(0, 255, 21);
-    width: 100%;
-    padding: 3px;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-}
 
 .mapa {
     width: 100%;
@@ -318,21 +315,21 @@ p {
 
 }
 
-.up {
-    /*border:10px dashed yellow;*/
+/*.up {
+    /*border:10px dashed yellow;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 
+}*/
+
+.up{
+    width: 60px;
 }
 
-.up img {
-    width: 40px;
-}
 
 
-
-.botonup img:hover {
+.up:hover {
     background: #4C9972;
     border-radius: 80%;
     cursor: pointer;
