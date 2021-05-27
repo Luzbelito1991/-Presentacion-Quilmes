@@ -19,11 +19,17 @@ img{
     border: 2px solid rgb(251, 255, 9);
 }*/
 
+/*.row{
+    height: 200px;
+    border: 6px dashed red;
+}*/
+
 
 body {
     background-image: url("../img/background/BG-0.jpg");
     background-repeat:no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 
@@ -150,6 +156,7 @@ p {
     flex-wrap: wrap;
     align-content: flex-end;
     color: white;
+    font-family: 'Big Shoulders Display', cursive;
 
 }
 
@@ -160,8 +167,11 @@ p {
 }
 
 .titulonota {
-    color: white;
+    color: rgb(253, 253, 253);
     margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: underline;
 }
 
 
@@ -290,17 +300,19 @@ cursor: pointer;
 }
 
 
+
 /* FIN DEL FORMULARIO*/
 
 .pie {
 
 
-    background: #4C9972;
-    padding: 2%;
-    text-align: right;
+    background: #313233;
+    /*padding: 2%;*/
+    text-align:right;
     color: black;
-    clear: both;
-    margin: 15px 0 10px 0;
+    height: 100px;
+   
+    
 }
 
 .botonup {
@@ -320,11 +332,11 @@ cursor: pointer;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-
 }*/
 
 .up{
     width: 60px;
+
     
 }
 
