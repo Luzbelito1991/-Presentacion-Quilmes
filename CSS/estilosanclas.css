@@ -10,18 +10,37 @@ html {
 
 }
 
+img{
+    border-radius: 6px;
+}
+
+
+/*div[class|="col"]{
+    border: 2px solid rgb(251, 255, 9);
+}*/
+
+/*.row{
+    height: 200px;
+    border: 6px dashed red;
+}*/
+
+
 body {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 0 auto;
     background-image: url("../img/background/BG-0.jpg");
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+
+
+.header{
+    z-index: 99999999999;
+    
 }
 
 .cf-color {
-    background: rgb(67, 112, 48);
+    background: #FFFFFF;
     margin-top: 10px;
     border-radius: 3px;
 }
@@ -70,52 +89,45 @@ body {
     /* border: 3px dashed red;*/
 }
 
-.nav-list {
+/*.nav-list {
     list-style: none;
     display: flex;
     margin-bottom: 20px;
-
 }
-
 .nav-list li {
     margin-right: 15px;
     border-radius: 3px;
-
 }
-
 .nav-list li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     display: block;
     cursor: default;
 }
-
-
 .nav-list li:hover {
-
     background: hsla(110, 85%, 16%, 0.685);
     transition: 2s;
+}*/
 
 
 
-}
-
-/* HEADER */
-
-
-h1,
-h2 {
+h1,h2 {
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 p {
-    color: black;
+    color: rgb(255, 254, 254);
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
 }
 
 
 /* SOBRE NOSOTROS*/
+
 
 .cajaempre {
 
@@ -134,7 +146,7 @@ p {
 .hijoempre {
 
     width: 100%;
-    border: 3px solid black;
+   /* border: 3px solid black;*/
     overflow: hidden;
 }
 
@@ -144,6 +156,7 @@ p {
     flex-wrap: wrap;
     align-content: flex-end;
     color: white;
+    font-family: 'Big Shoulders Display', cursive;
 
 }
 
@@ -154,73 +167,12 @@ p {
 }
 
 .titulonota {
-    color: white;
+    color: rgb(253, 253, 253);
     margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: underline;
 }
-
-
-
-
-
-/* *************GALERIA************* */
-
-.galeria {
-    border: 6px dashed blue;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-/*.clientes {
-        display: flex;
-        flex-direction: column;
-}*/
-
-.galeria {
-    width: 100%;
-}
-
-.fila {
-    width: 100%;
-    display: flex;
-    margin: 0 20px;
-}
-
-.caja-galeria {
-    width: 25%;
-    padding: 0 10px;
-    animation-name: ani-galeria;
-
-}
-
-.caja-galeria img {
-    width: 100%;
-    /*display: inline-block;*/
-    border-radius: 10px;
-}
-
-/*.caja-galeria img:hover {
-padding: 9px;
-background: rgb(13, 129, 19);
-border-radius: 20px;
-box-shadow: #999 5px 5px 10px;
-transition: 1s;*/
-
-@keyframes ani-galeria {
-    0% {
-        transform: rotate(0);
-    }
-
-    00% {
-        transform: rotate(360deg);
-    }
-}
-
-
-/* *************GALERIA************* */
-
-
 
 
 .contempresa {
@@ -236,54 +188,21 @@ transition: 1s;*/
 }
 
 
+/*SERVICIOS*/
 
+.hola:hover{
+animation: pulse;
+animation-duration: 2s;
+cursor: pointer;
+}
 
-p {
-    padding: 5px;
-    margin: 20px;
-    font-weight: bold;
+.chau:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
 
 }
 
-.qhacemos .video {
-    border-radius: 3px;
-    margin-bottom: 20px;
-    width: 50%;
-
-}
-
-
-
-
-/* SECCIONES */
-
-/*.sucur h3{
-
-    color: blue;
-    margin: 10px;
-
-}
-
-.ubicacion iframe{
-    width: 80%;
-    margin: 10px 20px;
-}
-*/
-
-.sucur {}
-
-
-.cajatuc {
-    border: 3px dashed magenta;
-    width: 100%;
-    padding: 3px;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-
-
-
-}
 
 .mapa {
     width: 100%;
@@ -362,25 +281,17 @@ p {
     background:
 }
 
-#formprin p {
+#formprin{
     font-family: monospace;
     padding: 10px;
-    margin: 5px 0 10px 0;
-    border-radius: 3px;
-    width: 100%;
+    margin-bottom: 30px;
+    width: 80%;
     border: none;
 }
 
-#formprin button[type="submit"] {
 
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-    background: #4C9972;
-    transition: 1s;
-
-
+.form-floating{
+    background:red;
 }
 
 #formprin button[type="submit"]:hover {
@@ -389,17 +300,19 @@ p {
 }
 
 
+
 /* FIN DEL FORMULARIO*/
 
 .pie {
 
 
-    background: #4C9972;
-    padding: 2%;
-    text-align: right;
+    background: #313233;
+    /*padding: 2%;*/
+    text-align:right;
     color: black;
-    clear: both;
-    margin: 15px 0 10px 0;
+    height: 100px;
+   
+    
 }
 
 .botonup {
@@ -414,31 +327,45 @@ p {
 
 }
 
-.up {
-    /*border:10px dashed yellow;*/
+/*.up {
+    /*border:10px dashed yellow;
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}*/
 
+.up{
+    width: 60px;
+
+    
 }
 
-.up img {
-    width: 40px;
-}
 
 
-
-.botonup img:hover {
-    background: #4C9972;
+.up:hover {
+    background: #7ae4af;
     border-radius: 80%;
     cursor: pointer;
 
 }
 
 .clientes {
-    border: 9px dashed white;
+    /*border: 9px dashed white;*/
 }
 
 .comercios2 {
     border: 9px dashed orangered;
+}
+
+.contacto{
+    background:#313233;
+    
+}
+
+.btn-outline-success{
+ color: white;
+}
+
+.form-label{
+    color: white;
 }
