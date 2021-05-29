@@ -16,7 +16,7 @@ img{
 
 
 div[class|="col"]{
-    border: 2px solid rgb(255, 9, 214);
+    border: 2px solid rgb(9, 239, 255);
 }
 
 /*.row{
@@ -310,7 +310,7 @@ cursor: pointer;
     /*padding: 2%;*/
     text-align:right;
     color: black;
-    height: 100px;
+    height: 200px;
    
     
 }
@@ -359,6 +359,7 @@ cursor: pointer;
 
 .contacto{
     background:#313233;
+    
     
 }
 
