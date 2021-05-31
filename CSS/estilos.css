@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+
+}
+
+img{
+    border-radius: 6px;
+}
+
+.barra{
+
+    size: 5px;
+    color: rgb(0, 26, 255);
+    
+
+
+}
+
+
+/*div[class|="col"]{
+    border: 2px solid rgb(218, 255, 9);
+}*/
+
+/*.row{
+    height: 200px;
+    border: 6px dashed red;
+}*/
+
+
+
+body {
+    background-image: url("../img/background/25097.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.header{
+    z-index: 99999999999;
+}
+
+.cf-color {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+/*h1,h2 {
+    color: black;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Big Shoulders Display', cursive;
+}*/
+
+/*p {
+    color: rgb(255, 254, 254);
+    padding: 5px;
+    margin: 2px;
+    font-weight: bold;
+}*/
+
+
+/* SOBRE NOSOTROS*/
+
+
+.cajaempre {
+
+    width: 100%;
+    height: auto;
+    /*margin: 15px 15px*/
+    ;
+    /*border: 5PX dashed blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.hijoempre {
+
+    width: 100%;
+   /* border: 3px solid black;*/
+    overflow: hidden;
+}
+
+.txtempre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+
+}
+
+.lista li {
+    color: rgb(0, 26, 255);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.titulonota {
+    color: rgb(253, 253, 253);
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: underline;
+}
+
+/***** Comercios Adheridos ******/
+
+.card-text{
+    color: rgb(0, 0, 3);
+    
+}
+
+
+
+
+
+/*SERVICIOS*/
+
+.hola:hover{
+animation: pulse;
+animation-duration: 2s;
+cursor: pointer;
+}
+
+.chau:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+
+}
+
+
+.mapa {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.sucur .cajatuc .ubicacion img {
+    width: 40%;
+    margin-bottom: 20px;
+
+}
+
+/* FORMULARIO*/
+.titform {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#formprin {
+    border-radius: 8px;
+
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#formprin span {
+    margin: 5px 0 15px 0;
+    color: black;
+
+}
+
+
+#formprin input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    border: none;
+
+}
+
+#formprin input[type="radio"] {
+    width: auto;
+    margin-right: 15px;
+
+
+
+}
+
+#formprin select {
+
+    font-family: monospace;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    background:
+
+}
+
+#formprin textarea {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: monospace;
+    background:
+}
+
+#formprin{
+    font-family: monospace;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    border: none;
+}
+
+
+#formprin button[type="submit"]:hover {
+    background: rgb(82, 160, 79);
+    cursor: pointer;
+}
+
+.cfc-contacto{
+    background: #313233;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    
+    }
+    
+
+
+/* FIN DEL FORMULARIO*/
+
+/*.pie {
+
+
+    background: #505050fb;
+    /*padding: 2%;
+    text-align:right;
+    color: rgb(245, 56, 213);
+    height: 200px;
+   
+    
+}*/
+
+.footer
+{
+    background: #ffffff;
+}
+
+.botonup {
+    /*border: 5px dashed red;*/
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-end;*/
+
+
+}
+
+/*.up {
+    /*border:10px dashed yellow;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}*/
+
+.up{
+    width: 60px;
+
+    
+}
+
+
+
+.up:hover {
+    background: #7ae4af;
+    border-radius: 80%;
+    cursor: pointer;
+
+}
+
+.clientes {
+    /*border: 9px dashed white;*/
+}
+
+.comercios2 {
+    border: 9px dashed orangered;
+}
+
+.contacto{
+    background:#313233;
+    
+    
+}
+
+.btn-outline-success{
+ color: white;
+}
+
+.form-label{
+    color: white;
+}
