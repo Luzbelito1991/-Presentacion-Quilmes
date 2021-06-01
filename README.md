@@ -1,2 +1,0 @@
-# Quilmes
-proyecto para presentar
