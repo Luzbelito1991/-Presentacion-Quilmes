@@ -10,11 +10,6 @@ html {
 
 }
 
-img {
-    border-radius: 6px;
-}
-
-
 /*div[class|="col"]{
     border: 2px solid rgb(218, 255, 9);
 }*/
@@ -196,16 +191,22 @@ p {
 /* FIN DEL FORMULARIO*/
 
 .pie {
-    background: #f7f7f7fb;
+    background-image: url("../img/img\ footer/footer.jpg");
     /*padding: 2%;*/
     text-align: right;
     color: rgb(0, 0, 0);
     height: auto;
+    
 }
 
 
+
+
 .footer2 {
-    background: #adadad;
+    background: #000000;
+    position: relative;
+    
+    
 }
 
 
@@ -219,11 +220,14 @@ p {
 
 .up {
     width: 40px;
+    background: #19814d;
+    border-radius: 80%;
+    cursor: pointer;
 }
 
 
 .up:hover {
-    background: #19814d;
+    background: #ffffff;
     border-radius: 80%;
     cursor: pointer;
 }
@@ -257,7 +261,37 @@ h6 {
     color: #19814d;
 }
 
-.secc-style{
-    background: #aaee99;
-    height: 600px;
+.secc-style {
+    background-image: url("../img/background/25097.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+/***** ANIMACIONES ******/
+
+
+
+.pie{
+    animation:slideInUp;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+
+@keyframes identifier {
+    0% {
+        background: red;
+    }
+
+    50%{
+        background: rgb(62, 65, 250);
+    }   
+    
+    100% { 
+
+        background: rgb(237, 250, 62);
+    }
+  }
