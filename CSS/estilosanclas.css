@@ -10,9 +10,9 @@ html {
 
 }
 
-/*div[class|="col"]{
+div[class|="col"]{
     border: 2px solid rgb(218, 255, 9);
-}*/
+}
 
 /*.row{
     height: 200px;
