@@ -11,7 +11,7 @@ html {
 }
 
 div[class|="col"]{
-    border: 2px solid rgb(255, 223, 44);
+    border: 2px solid rgb(255, 44, 185);
 }
 
 /*.row{
