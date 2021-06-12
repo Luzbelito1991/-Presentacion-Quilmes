@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -12,7 +11,7 @@ html {
 
 /*div[class|="col"]{
     border: 2px solid rgb(255, 44, 185);
-}
+}*/
 
 /*.row{
     height: 200px;
@@ -22,6 +21,16 @@ html {
 .container{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.bordes1{
+    border: 5px dashed red;
+}
+
+
+
+.bordes2{
+    border: 5px dashed rgb(1, 60, 255);
 }
 
 
@@ -48,6 +57,7 @@ body {
 
 h1,
 h2 {
+    margin-top: 15px;
     color: black;
     text-align: center;
     padding: 2px;
