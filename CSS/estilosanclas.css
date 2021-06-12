@@ -57,7 +57,11 @@ body {
 
 h1,
 h2 {
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+    margin-top: 10px;
+>>>>>>> 55897454149e7e2472cad8eeeb5ed423ed409900
     color: black;
     text-align: center;
     padding: 2px;
@@ -231,7 +235,7 @@ iframe {
 
 
 .up {
-    width: 50px;
+    width: 40px;
     color: black;
     cursor: pointer;
     position: fixed;
@@ -270,9 +274,9 @@ h6 {
 }
 
 .secc-style {
-    /*background-image: url("../img/background/ser-bg.jpg");
+    background-image: url("../img/background/ser-bg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
     height: 100vh;
     padding: auto;
     background-color: rgb(104, 184, 111);
