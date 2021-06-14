@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -9,37 +10,60 @@ html {
 
 }
 
+.separador {
+    position: relative;
+}
+
+.custom-shape-divider-top-1623637674 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+
+.custom-shape-divider-top-1623637674 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 98px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1623637674 .shape-fill {
+    fill: #19814D;
+}
+
+.contenido {
+
+    padding: 5% 12% 8% 12%;
+}
+
+
+
 /*div[class|="col"]{
     border: 2px solid rgb(255, 44, 185);
-}*/
+}
 
 /*.row{
     height: 200px;
     border: 6px dashed red;
 }*/
 
-.container{
+.container {
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-.bordes1{
-    border: 5px dashed red;
-}
-
-
-
-.bordes2{
-    border: 5px dashed rgb(1, 60, 255);
 }
 
 
 
 body {
-    /*background-image: url("../img/background/BG-0.jpg");
+    background-image: url("../img/background/BG-0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;*/
+
 }
 
 
@@ -55,17 +79,22 @@ body {
 }
 
 
-h1,
-h2 {
-<<<<<<< HEAD
-    margin-top: 15px;
-=======
-    margin-top: 10px;
->>>>>>> 55897454149e7e2472cad8eeeb5ed423ed409900
-    color: black;
+
+h1 {
     text-align: center;
-    padding: 2px;
-    font-family: 'Big Shoulders Display', cursive;
+    font-size: 70px;
+    font-family: 'wire one', serif;
+    font-weight: bold;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'wire one', serif;
+    font-weight:bold;
 }
 
 p {
@@ -215,13 +244,13 @@ p {
     text-align: right;
     color: rgb(0, 0, 0);
     height: auto;
-    
+
 }
 
 iframe {
     max-width: 100%;
     height: 90%;
-   }
+}
 
 
 
@@ -229,8 +258,8 @@ iframe {
 .footer2 {
     background: #000000;
     position: relative;
-    
-    
+
+
 }
 
 
@@ -245,15 +274,17 @@ iframe {
 
 
 .up:hover {
-    background:#3A9F65;
-    border-radius:80%;
+    background: #3A9F65;
+    border-radius: 80%;
     cursor: pointer;
 }
 
-
+/* AJUSTA EL CONTENDIDO DENTRO DE LOS SEPARADORES*/
 .contacto {
     background: #313233;
-    height:auto;
+    height: auto;
+    padding: 5% 12% 1% 12%;
+    color: white;
 }
 
 .btn-outline-success {
@@ -279,24 +310,18 @@ h6 {
     background-size: cover;
     height: 100vh;
     padding: auto;
-    background-color: rgb(104, 184, 111);
+    /*background-color: rgb(252, 11, 2)*/
 }
 
-.hr{
 
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: 5px dashed red;
-
-}
 
 
 /***** ANIMACIONES ******/
 
 
 
-.pie{
-    animation:slideInUp;
+.pie {
+    animation: slideInUp;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-direction: alternate;
@@ -309,20 +334,19 @@ h6 {
         background: rgb(0, 255, 242);
     }
 
-    25%{
+    25% {
         background: rgb(30, 255, 0);
     }
 
-    50%{
+    50% {
         background: rgb(62, 250, 172);
-    }   
-    
-    100% { 
+    }
+
+    100% {
 
         background: rgb(237, 250, 62);
     }
-  }
+}
 
 
-  /****** FONDO PARA LAS SECCIONES****/
-
+/****** FONDO PARA LAS SECCIONES****/
