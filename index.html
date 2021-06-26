@@ -310,20 +310,20 @@
         </div>
         <div class="col-8 text-center">
 
-          <form action="" method="POST">
+          <form action="" method="POST" autocomplete="off">
 
           <input class="form-control form-control-sm" type="text" placeholder="Nombre">
 
           <input class="form-control form-control-sm" type="text" placeholder="Apellido">
 
           <!--LISTA-->
-          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Tipo de Consulta">
-          <datalist id="datalistOptions">
-            <option value="Administracion">
-            <option value="Adhesion">
-            <option value="Soporte Técnico">
-            <option value="Otras Consultas">
-          </datalist>
+          <select class="form-control form-control-sm">
+            <option selected>Tipo de Consulta</option>
+            <option value="Administracion">Administracion</option>
+            <option value="Soporte">Soporte</option>
+            <option value="Adhesion">Adhesion</option>
+            <option value="OtrasConsultas">Otras Consultas</option>
+          </select>
           <!--LISTA-->
 
           <div class="mb-1">
