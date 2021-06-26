@@ -44,7 +44,7 @@ h2 {
 
 p {
     color: #3A9F65;
-    padding: 5px;
+    padding: 1px;
     margin: 2px;
     font-weight: bold;
 }
@@ -96,13 +96,6 @@ p {
     z-index: 99999999999;
 }
 
-.cf-color {
-    background: #FFFFFF;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 3px;
-}
-
 
 /*******NAV********/
 
@@ -124,100 +117,46 @@ p {
 
 /*SERVICIOS*/
 
-.hola:hover {
-    animation: pulse;
-    animation-duration: 2s;
-    cursor: pointer;
-}
 
-.chau:hover {
-    animation: pulse;
-    animation-duration: 2s;
-    cursor: pointer;
-
-}
 
 /* FORMULARIO*/
 
-.titform {
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(109, 2, 248);
-    margin-bottom: 15px;
-    
+.contieneForm {
+    background: #313233;
+    /*border: solid 3px red;*/
+    height: auto;
+    padding: 6% 4% 2% 4%;
+    color: white 
 }
+
+.form-control{
+    width: 100%;
+    margin: 5px auto 5px 5px;
+}
+
 
 .form-label {
     color: rgb(255, 255, 255);
     
 }
 
-#formprin {
-    border-radius: 8px;
-
-    padding: 30px;
-    width: 80%;
-    margin: auto;
-}
-
-#formprin span {
-    margin: 5px 0 15px 0;
-    color: black;
-
-}
-
-
-#formprin input {
-    /*width: 100%;
-    margin: 5px 0 10px 0;
-    border-radius: 3px;
-    border: none;
-    border: 2px solid red;*/
-   
-
-}
-
-#formprin input[type="radio"] {
-    width: auto;
-    margin-right: 15px;
-}
-
-#formprin select {
-
-    font-family: monospace;
-    padding: 10px;
-    margin: 5px 0 10px 0;
-    border-radius: 3px;
-    width: 100%;
-    border: none;
-    background:
-
-}
-
-#formprin textarea {
-    width: 100%;
-    margin: 5px 0 10px 0;
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-    font-family: monospace;
-    background:
-}
-
-#formprin {
-    font-family: monospace;
-    padding: 10px;
-    margin-bottom: 30px;
-    width: 80%;
-    border: none;
-}
-
-
 #formprin button[type="submit"]:hover {
     background: rgb(82, 160, 79);
     cursor: pointer;
 }
 
+
+
+/*BOTON ENVIAR DEL FORMULARIO*/
+.btn-outline-success {
+    color: rgb(255, 255, 254);
+}
+
+.identi{
+    background: rgb(2, 217, 255);
+    border: solid 2px red;
+    
+}
 
 
 /* FIN DEL FORMULARIO*/
@@ -227,7 +166,8 @@ p {
     /*padding: 2%;*/
     text-align: right;
     color: rgb(0, 0, 0);
-    height: auto;
+   
+    
     
 
 }
@@ -235,6 +175,7 @@ p {
 .footer2 {
     background: #000000;
     position: relative;
+   
 }
 
 
@@ -256,17 +197,8 @@ p {
 }
 
 /* AJUSTA EL CONTENDIDO DENTRO DE LOS SEPARADORES*/
-.contacto {
-    background: #313233;
-    height: auto;
-    padding: 7% 12% 1% 12%;
-    color: white;
-}
 
-/*BOTON ENVIAR DEL FORMULARIO*/
-.btn-outline-success {
-    color: white;
-}
+
 /**********************************/
 
 
@@ -291,10 +223,37 @@ h6 {
     /*background-color: rgb(252, 11, 2)*/
 }
 
+.sec1{
+    background-image: url("../img/background_sections/empresa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2{
+    background-image: url("../img/background_sections/servicios.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
 /***** ANIMACIONES ******/
+
+
+.hola:hover {
+    animation: pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+
+}
+
+
+.chau:hover {
+    animation: pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+
+}
 
 
 
@@ -305,26 +264,3 @@ h6 {
     animation-direction: alternate;
 
 }
-
-
-@keyframes identifier {
-    0% {
-        background: rgb(0, 255, 242);
-    }
-
-    25% {
-        background: rgb(30, 255, 0);
-    }
-
-    50% {
-        background: rgb(62, 250, 172);
-    }
-
-    100% {
-
-        background: rgb(237, 250, 62);
-    }
-}
-
-
-/****** FORMULARIO + GOOGLE MAPS****/
