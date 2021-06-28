@@ -4,12 +4,37 @@
 }
 
 body {
-    background-image: url("../img/background/luci.jpg");
+    background-image: url("../img/background_sections/Shades\ of\ Grey.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 45%;
+    margin: 15px auto 15px auto;
+
 }
 
+.login{
+    border: solid 5px rgb(241, 241, 241);
+    background: white;
+    margin-top: 6px;
+}
 
-div[class|="col"]{
+#logo{
+  color: red;
+  /*border: dashed 2px red;*/
+  width: 25%;
+  
+}
+
+/*div[class|="col"]{
     border: 2px solid rgb(255, 44, 185);
+}*/
+
+.cabeceraLogin{
+    background: rgb(57,158,100);
+}
+
+.form-group{
+    margin-top: 25px;
+    text-align: center;
+
 }

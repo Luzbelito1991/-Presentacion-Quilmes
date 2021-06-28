@@ -25,7 +25,7 @@ html {
 
 }
 
-#p4{
+#p4 {
     text-align: center;
 }
 
@@ -43,11 +43,11 @@ h2 {
     text-align: center;
     font-size: 50px;
     font-family: 'wire one', serif;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 p {
-    color: #3A9F65;
+    color: #ffffff;
     padding: 1px;
     margin: 2px;
     font-weight: bold;
@@ -80,7 +80,7 @@ p {
 }
 
 .custom-shape-divider-top-1623637674 .shape-fill {
-    fill:#31BA80;
+    fill: #198754;
 }
 
 .contenido {
@@ -126,14 +126,15 @@ p {
 /* FORMULARIO*/
 
 .contieneForm {
-    background: #313233;
+    background-image: url("../img/background_sections/Deep\ Space.jpg");
     /*border: solid 3px red;*/
     height: auto;
     padding: 6% 4% 2% 4%;
-    color: white 
+    color: white
 }
 
-.form-control{
+
+.form-control {
     width: 100%;
     margin: 5px auto 5px 5px;
 }
@@ -141,7 +142,7 @@ p {
 
 .form-label {
     color: rgb(255, 255, 255);
-    
+
 }
 
 #formprin button[type="submit"]:hover {
@@ -156,10 +157,10 @@ p {
     color: rgb(255, 255, 254);
 }
 
-.identi{
+.identi {
     background: rgb(2, 217, 255);
     border: solid 2px red;
-    
+
 }
 
 
@@ -170,16 +171,16 @@ p {
     /*padding: 2%;*/
     text-align: right;
     color: rgb(0, 0, 0);
-   
-    
-    
+
+
+
 
 }
 
 .footer2 {
     background: #000000;
     position: relative;
-   
+
 }
 
 
@@ -190,7 +191,7 @@ p {
     position: fixed;
     bottom: 6px;
     right: 28px;
-   
+
 }
 
 
@@ -210,34 +211,37 @@ p {
 
 h6 {
     color: #19814d;
-    
+
 }
 
 .contacwp:hover {
     color: #19814d;
-    
+
 }
 
 .secc-style {
-    background-image: url("../img/background/ser-bg.jpg");
+    /*background-image: url("../img/background_sections/Electric\ Violet.jpg");*/
+   
+    background-image: linear-gradient(90deg, #4d6e50 0%, #175638 50%, #f3f3f3 100%);
+
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding: auto;  
+    padding: auto;
     /*background-color: rgb(252, 11, 2)*/
 }
 
-.sec1{
-    background-image: url("../img/background_sections/empresa.jpg");
+/*.sec1{
+    background-image: url("../img/background_sections/Shades\ of\ Grey.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sec2{
-    background-image: url("../img/background_sections/servicios.jpg");
+    background-image: url("../img/background_sections/Shades\ of\ Grey.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
 
 
