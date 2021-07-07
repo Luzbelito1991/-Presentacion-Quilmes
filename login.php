@@ -43,7 +43,9 @@
             //echo "<a href='formLogin.php' class='btn btn-primary'>Volver</a>";
         }else{
 
-            header('location:menuComercio.html');
+            echo "<p>HOLA CLIENTE</p>";
+
+            //header('location:menuComercio.html');
 
             // sesiones
             //session_start();

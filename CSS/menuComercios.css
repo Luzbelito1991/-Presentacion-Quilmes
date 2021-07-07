@@ -19,7 +19,7 @@ body {
 }
 
 #logo{
-  color: rgb(38, 0, 255);
+  color: red;
   /*border: dashed 2px red;*/
   width: 25%;
   
@@ -30,7 +30,7 @@ body {
 }*/
 
 .cabeceraLogin{
-    background: rgb(57,158,100);
+    background: rgb(255, 2, 2);
 }
 
 .form-group{
