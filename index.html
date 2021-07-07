@@ -21,10 +21,7 @@
   <!-- ANIMATE CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-
-  <!--MI CSS-->
-
-  <link rel="stylesheet" href="CSS/estilosanclas.css">
+  <link rel="stylesheet" href="./CSS/estilosanclas.css">
 
   <title>LOS QUILMES S.A</title>
 </head>
@@ -87,9 +84,21 @@
             <ul class="navbar-nav ml-auto nav-flex-icons justify-content-end">
               <li class="nav-item dropdown">
                 <a href="menuClientes.html"><button type="button" class="btn btn-success btn-sm">Acceso a
-                    Clientes</button></a>
+                    Comercios</button></a>
               </li>
             </ul>
+
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+          </div>
+
           </div>
         </div>
 
@@ -295,7 +304,7 @@
     <div class="container">
       <div class="row">
         <div class="col-4 offset">
-          
+
         </div>
         <div class="col-8 text-center">
           <h2 id="p4">Contacto</h2>
@@ -305,44 +314,56 @@
       <div class="row">
         <div class="col-4 text-left">
           <span style="margin-top: 10px;">
-            En Los Quilmes S.A. tenemos la sana costumbre de darte un trato personalizado. Contactanos y nos comunicaremos de inmediato.
-            
+            En Los Quilmes S.A. tenemos la sana costumbre de darte un trato personalizado. Contactanos y nos
+            comunicaremos de inmediato.
+
             Dejanos tu consulta completando el siguiente formulario.
           </span>
-     
+
         </div>
         <div class="col-8 text-center">
 
-          <form class="formu" action="" method="POST" autocomplete="off">
+          <!--FORMULARIO-->
 
-          <input class="form-control form-control-sm" type="text" placeholder="Nombre">
+          <form class="formu" action="envioDatosSql.php" method="POST" autocomplete="on">
 
-          <input class="form-control form-control-sm" type="text" placeholder="Apellido">
+            <input class="form-control form-control-sm" type="text" placeholder="Nombre" name="nombre">
 
-          <!--LISTA-->
-          <select class="form-control form-control-sm">
+            <input class="form-control form-control-sm" type="text" placeholder="Apellido" name="apellido">
+
+            <input class="form-control form-control-sm" type="email" placeholder="Ingrese su Email" name="email">
+
+            <textarea class="form-control form-control-sm" placeholder="Escribe tu mensaje aqui"
+              name="mensaje"></textarea>
+
+              <div class="row">
+                <div class="col">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Newsletter</label>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-success btn-sm mt-2">Enviar Consulta</button>
+                </div>
+              </div>
+
+            
+
+
+            
+
+            
+
+            <!--LISTA
+          <select class="form-control form-control-sm" name="opcion">
             <option selected>Tipo de Consulta</option>
             <option value="Administracion">Administracion</option>
             <option value="Soporte">Soporte</option>
             <option value="Adhesion">Adhesion</option>
             <option value="OtrasConsultas">Otras Consultas</option>
           </select>
-          <!--LISTA-->
+          LISTA-->
 
-          <div class="mb-1">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu Email">
-          </div>
-
-          <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje aqui"></textarea>
-          </div>
-
-          <div class="d-grid gap-2 col-6">
-            <button type="submit" class="btn btn-success btn-sm">Enviar Consulta</button>
-           
-          </div>
-
-        </form>
+          </form>
 
         </div>
       </div>
