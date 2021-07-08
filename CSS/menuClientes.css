@@ -13,8 +13,7 @@ body {
 
 .formulario{
     width: 30%;
-    margin: auto;
-    margin-top: 25px;
+    margin: 7px auto 7px auto;
     color:#343E4A;
 
 }
@@ -23,7 +22,9 @@ body {
     background-image: url("../img/img\ footer/footer.jpg");
     text-align: right;
     color: rgb(255, 255, 255);
-    margin-top: 25px;
+    margin-top: 15px;
+    padding: 0px;
+ 
     
 
 

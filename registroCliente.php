@@ -3,25 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/menuClientes.css">
-
-    <?php $title = "UTN 2021" ?>
-
-    <title><?php echo $title ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="CSS/fer.css">
+    
 
 </head>
 
 <body>
 
-
-    <div class="container ">
+    <div class="container">
         <h2>Registro de usuarios</h2>
         <hr>
         <div class="form w-75">
-            <form action="registroUser.php" method="POST">
+            <form class="forma" action="registroUser.php" method="POST">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Dni</label>
                     <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="" name="dni" required>
@@ -60,8 +56,11 @@
         </div>
     </div>
 
+<?php
 
+include 'footer.php';
 
+?>
 </body>
 
 </html>

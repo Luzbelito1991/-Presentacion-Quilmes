@@ -35,7 +35,7 @@
     <!-- Default form login -->
     <form class="text-center border border-success p-5 formulario" action="loginComercios.php" method="POST">
 
-        <p class="h4 mb-4">INICIAR SESIÓN COMERCIOS</p>
+        <p class="h4 mb-4">INICIAR SESIÓN</p>
 
         <!-- Email -->
         <input type="text" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Ingrese ID de Cliente"

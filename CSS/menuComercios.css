@@ -25,16 +25,10 @@ body {
   
 }
 
-/*div[class|="col"]{
-    border: 2px solid rgb(255, 44, 185);
-}*/
-
-.cabeceraLogin{
-    background:#399E64;
-
-
-.form-group{
-    margin-top: 25px;
-    text-align: center;
-
+.pie {
+    background-image: url("../img/img\ footer/footer.jpg");
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    padding: 0px;
 }
