@@ -21,17 +21,17 @@
        <?php
         
         //array POST
-        $cod_cliente = $_REQUEST['id_comercio'];
-        $claveUser = $_REQUEST['clave_user'];
+        $dni_cliente = $_REQUEST['dni'];
+        $claveCliente = $_REQUEST['password'];
 
         // conexion MYSQL
         include "conexion.php";
 
         //consulta3: si el usuario y el password coinciden, no hay login, sale a Registro. Sino, creamos las sesiones
 
-        $query3 = mysqli_query($conexion, "SELECT id_comercio, contrasenia FROM comercio_adheridos WHERE id_comercio='$cod_cliente' and contrasenia='$claveUser'");
+        $query2 = mysqli_query($conexion, "SELECT dni, contrasenia FROM clientes WHERE dni='$dni_cliente' and contrasenia='$claveCliente'");
 
-        $verif = mysqli_num_rows($query3);
+        $verif = mysqli_num_rows($query2);
 
         echo $verif;
 

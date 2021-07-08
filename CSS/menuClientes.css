@@ -4,37 +4,45 @@
 }
 
 body {
-    background-image: url("../img/background_sections/Shades\ of\ Grey.jpg");
+    background-image: url("../img/background_sections/22596.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 45%;
-    margin: 15px auto 15px auto;
+    
 
 }
 
-.login{
-    border: solid 5px rgb(241, 241, 241);
-    background: white;
-    margin-top: 6px;
-}
-
-#logo{
-  color: rgb(38, 0, 255);
-  /*border: dashed 2px red;*/
-  width: 25%;
-  
-}
-
-/*div[class|="col"]{
-    border: 2px solid rgb(255, 44, 185);
-}*/
-
-.cabeceraLogin{
-    background: #399E64;
-}
-
-.form-group{
+.formulario{
+    width: 30%;
+    margin: auto;
     margin-top: 25px;
-    text-align: center;
+    color:#343E4A;
 
 }
+
+.pie {
+    background-image: url("../img/img\ footer/footer.jpg");
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    
+
+
+}
+.footer2 {
+    background: #000000;
+    color: white;
+    margin-left: 0;
+    
+   
+}
+
+
+
+/*.pie {
+    animation: slideInUp;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  
+
+}*/
