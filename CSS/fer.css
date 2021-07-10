@@ -3,9 +3,19 @@ body {
 }
 
 .forma{
-    border: 5px dashed purple;
+    border: 1px solid rgb(255, 255, 255, 12);
     width: 50%;
     margin: 10px auto 10px auto;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
 }
 
 
@@ -17,6 +27,7 @@ body {
     color: rgb(255, 255, 255);
     margin-top: 15px;
     padding: 0px;
+    width: 100%;
  
     
 

@@ -36,6 +36,7 @@ h1 {
     font-size: 70px;
     font-family: 'wire one', serif;
     font-weight: bold;
+    color: white;
 }
 
 
@@ -44,6 +45,7 @@ h2 {
     font-size: 50px;
     font-family: 'wire one', serif;
     font-weight: bold;
+    color: white;
 }
 
 p {
@@ -156,7 +158,7 @@ p {
     background-image: url("../img/img\ footer/footer.jpg");
     /*padding: 2%;*/
     text-align: right;
-    color: rgb(0, 0, 0);
+    color: white;
 
 
 
@@ -166,6 +168,7 @@ p {
 .footer2 {
     background: #000000;
     position: relative;
+    
 
 }
 

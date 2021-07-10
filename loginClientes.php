@@ -45,7 +45,7 @@
 
             echo "<p>HOLA CLIENTE</p>";
 
-            //header('location:menuComercio.html');
+            header('location:MenuCliente.php');
 
             // sesiones
             //session_start();
